@@ -380,3 +380,35 @@ branch 'developoment' set up to track 'origin/developoment'.
 jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (developoment)
 $ git checkout master
 Switched to branch 'master'
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$ git branch
+  developoment
+* master
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$ git branch --all
+  developoment
+* master
+  remotes/origin/developoment
+  remotes/origin/master
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$ git branch -r
+  origin/developoment
+  origin/master
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$ git fetch --all
+From https://github.com/jagarnath/HostFilePush
+ * [new branch]      branch3    -> origin/branch3
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$ git branch -r
+  origin/branch3
+  origin/developoment
+  origin/master
+
+jagarnath@ESSPLLAP78 MINGW64 ~/HostFilePush (master)
+$
+
