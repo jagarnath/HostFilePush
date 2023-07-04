@@ -1,0 +1,2 @@
+Hi From notepad
+Hello world
